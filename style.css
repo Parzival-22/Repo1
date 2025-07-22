@@ -1,0 +1,50 @@
+.flexbox
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.text
+{
+    margin-top: 8%;
+}
+
+  .image
+{
+ margin-top: 7%;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(221, 221, 221);
+    padding: 5px 15px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+  
+  .nav-links a {
+    font-family: Roboto;
+    font-size: large;
+    text-decoration: none;
+    color: #292929;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #1faff3;
+  }
